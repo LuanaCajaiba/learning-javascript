@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boas vindas</title>
+</head>
+<body>
+    <script>
+        var nome = prompt("Qual o seu nome?"); 
+        var genero = prompt("Qual seu gênero? 1-feminino 2-masculino 3- não binário");
+        var boasvindas = [ 'a', 'o', 'e'];
+
+        if (genero == 1)
+            alert( "Bem vind" + boasvindas[0] +  nome);
+        else if (genero == 2 )
+            alert("Bem vind" + boasvindas[1] + nome);
+        else if (genero == 3)
+            alert("Bem vind" + boasvindas[2] + nome);
+        else
+            alert("Bem vindx" + nome);
+    </script>
+</body>
+</html>
