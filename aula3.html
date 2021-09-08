@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operadores matemáticos</title>
+</head>
+<body>
+    <script>
+        /*
+        Adição
+        Subtração
+        Multiplicação
+        Divisão
+        Módulo
+        Exponenciação
+        Incremento
+        Decremento
+        */
+
+
+
+        var dado;
+        var AdicionandoNota = new Array();
+
+        // entrada
+        var qtdNotas = prompt("Informe quantas avaliações foram feitas: ");
+
+        //  processamento
+        for (var i = 1; i <= qtdNotas; i++){
+            dado = prompt("Insira a " + (i) + "º nota");
+            AdicionandoNota[i] = dado
+        }
+
+        //  saída
+        alert("As notas inseridas foram " + AdicionandoNota);
+
+        
+
+
+
+    </script>
+</body>
+</html>
